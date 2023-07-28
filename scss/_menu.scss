@@ -40,6 +40,16 @@
     &.open {
       transform: rotate(720deg);
       background: transparent;
+
+      &::before {
+        // translate moves the lines x, y
+        transform: rotate(45deg) translate(5px, 8px);
+      }
+
+      &::after {
+        transform: rotate(-45deg) translate(3px, -7px);
+        width: 28px;
+      }
     }
   }
 }

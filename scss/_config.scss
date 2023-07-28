@@ -11,3 +11,13 @@ $secondary-color: #ff652f;
 @mixin transition-ease {
   transition: all 0.5s ease-in-out;
 }
+
+// give a proper color to text
+// if primary-color is dark than set white color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

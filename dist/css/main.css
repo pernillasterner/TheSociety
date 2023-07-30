@@ -295,6 +295,33 @@
   top: 0;
   opacity: 0.9;
 }
+.projects__item:hover .projects__btn {
+  opacity: 1;
+}
+.projects__btns {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.projects__btn {
+  opacity: 0;
+  -webkit-column-rule: #000;
+     -moz-column-rule: #000;
+          column-rule: #000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.projects__btn:hover {
+  color: #fff;
+}
 .projects .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;

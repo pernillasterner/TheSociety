@@ -5,12 +5,14 @@
 @import "projects";
 @import "contact";
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
 body {
   background: $primary-color;
   // if primary-color is dark than set white color
   color: set-text-color($primary-color);
   height: 100vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }
 

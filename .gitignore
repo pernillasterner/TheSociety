@@ -1,1 +1,15 @@
-dist/css/main.css.map
+# Ignore compiled CSS files
+/dist/*.css
+/dist/*.css.map
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore Sass cache files
+/.sass-cache/
+
+# Ignore compiled JavaScript files
+/dist/js/*.js
+
+# Ignore note files
+note.md

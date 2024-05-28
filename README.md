@@ -33,7 +33,3 @@ Make sure you have the following installed:
    ```
    sass --watch app/scss/style.scss dist/css/style.css
    ```
-
-### 🌐 Usage
-
-After setting up the project, you can start editing the Sass files under the app/scss/ directory. The changes will be automatically compiled into the dist/css/style.css file.
